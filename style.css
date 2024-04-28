@@ -1,0 +1,900 @@
+@media (min-width: 1046px){
+    body {
+        height: 100vh;
+        font-family: "Bai Jamjuree", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: hsl(201, 11%, 66%);
+        background-image: url(./images/bg-header-desktop.png);
+        background-repeat: repeat-x;
+        background-attachment: scroll;
+    }
+    
+    .header {
+        width: 100%;
+    }
+    
+    .head {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 75px;
+        text-align: center;
+    }
+
+    .headerlogo {
+        margin: 25px;
+        height: 120px;
+    }
+
+    .headertext {
+        width: 50%;
+    }
+    
+    h1, h2, h3 {
+        font-weight: 600;
+        color: hsl(210, 10%, 33%);
+    }
+    
+    p {
+        word-spacing: 15px;
+    }
+    
+    .button {
+        display: flex;
+        justify-content: center;
+    }
+
+    .download-btn {
+        border-radius: 30px;
+        padding: 15px 35px;
+        background-color: blueviolet;
+        color: white;
+        margin: 30px 10px;
+        font-weight: 600;
+        font-size: 16px;
+        text-align: center;
+        
+    }
+
+    .ios {
+        background-color: hsl(171, 66%, 44%);
+        box-shadow: 2px 3px 10px hsl(171, 80%, 52%);
+        
+    }
+
+    .mac {
+        background-color: hsl(233, 100%, 69%);
+        box-shadow: 2px 4px 10px hsl(201, 11%, 66%);
+    }
+
+    .group1a {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -50px;
+    }
+
+    .group1ab {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .quick, .icloud, .complete {
+        max-width: 67%;
+        padding: 10px;
+    }
+
+    .center {
+        width: 46%;
+        text-align: center;
+        margin-top: 100px;
+        margin-left: 27%;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: top;
+    }
+
+    .content {
+        text-align: center;
+        flex: 1;
+        max-width: 300px;
+        padding: 30px;
+    }
+
+    .group4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image {
+        margin: 100px 30px 0 30px;
+    }
+
+    .group1, .group2, .group3, .group5 {
+        width: 100%;
+    }
+
+    .devices {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .bottom {
+        margin-bottom: 75px;
+    }
+
+    .foot {
+        background-color: lightgray;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 30px 100px;
+        margin-top: 100px;
+        margin-left: 0;
+    }
+
+    .foot > img {
+        margin: 0 20px;
+    }
+
+    .foot .space {
+        color: hsl(210, 10%, 33%);
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .social {
+        display: flex;
+    }
+    
+    .social > div {
+        padding: 0 15px
+    }
+
+    .install {
+        grid-column: span 2;
+    }
+
+    .ios:hover {
+        cursor: pointer;
+        background-color: hsl(171, 80%, 52%);
+    }
+
+    .mac:hover {
+        cursor: pointer;
+        background-color: hsl(233, 91%, 78%);
+    }
+
+    .space:hover {
+        color: hsl(171, 66%, 44%);
+        cursor: pointer;
+    }
+
+    .social:hover {
+        color: hsl(171, 66%, 44%);
+        cursor: pointer;
+    }
+
+}
+
+@media (min-width: 100px) and (max-width: 375px){
+    body {
+        height: 100vh;
+        font-family: "Bai Jamjuree", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: hsl(201, 11%, 66%);
+        background-image: url(./images/bg-header-mobile.png);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+    }
+    
+    .header {
+        width: 100%;
+    }
+    
+    .head {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    .headerlogo {
+        margin: 50px;
+        height: 120px;
+    }
+
+    .headertext {
+        width: 90%;
+    }
+
+    .headertext > h1 {
+        font-size: 30px;
+    }
+
+    .headertext > p {
+        font-size: 16px;
+    }
+
+    h1, h2, h3 {
+        font-weight: 600;
+        color: hsl(210, 10%, 33%);
+    }
+    
+    p {
+        word-spacing: 15px;
+        font-size: 16px;
+    }
+
+    .button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .download-btn {
+        border-radius: 30px;
+        padding: 15px 35px;
+        background-color: blueviolet;
+        color: white;
+        margin: 10px 10px;
+        font-weight: 600;
+        font-size: 16px;
+        text-align: center;
+        flex: 1;
+        min-width: 275px;
+        max-width: 295px;
+    }
+
+    .ios {
+        background-color: hsl(171, 66%, 44%);
+        box-shadow: 2px 3px 10px hsl(171, 80%, 52%);
+    }
+
+    .mac {
+        background-color: hsl(233, 100%, 69%);
+        box-shadow: 2px 4px 10px hsl(201, 11%, 66%);
+    }
+
+    .group1a {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+       
+    }
+
+    .computer {
+        width: 90%;
+    }
+
+    .group1ab {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .quick, .icloud, .complete {
+        text-align: center;
+    }
+
+    .center {
+        width: 90%;
+        text-align: center;
+        margin-top: 100px;
+        margin-left: 5%;
+    }
+
+    .center > h2 {
+        font-size: 28px;
+    }
+
+    .center > p {
+        font-size: 16px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content {
+        text-align: center;
+        flex: 1;
+        max-width: 300px;
+        padding: 30px;
+    }
+
+    .group4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .image {
+        margin: 100px 30px 0 30px;
+    }
+
+    .group1, .group2, .group3, .group5 {
+        width: 100%;
+    }
+
+    .devices {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .bottom {
+        margin-bottom: 75px;
+    }
+
+    .foot {
+        background-color: lightgray;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 0;
+        margin-top: 100px;
+        margin-left: 0;
+        gap: 20px;
+    }
+
+    
+
+    .foot .space {
+        color: hsl(210, 10%, 33%);
+    }
+
+    .grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 0;
+        margin: 10px 0;
+    }
+
+    .social {
+        display: flex;
+    }
+    
+    .social > div {
+        padding: 0 15px
+    }
+
+    .contact {
+        order: 1;
+    }
+
+    .privacy {
+        order: 2;
+    }
+
+    .press {
+        order: 3;
+    }
+
+    .install {
+        order: 4;
+    }
+
+    .ios:hover {
+        cursor: pointer;
+        background-color: hsl(171, 80%, 52%);
+    }
+
+    .mac:hover {
+        cursor: pointer;
+        background-color: hsl(233, 91%, 78%);
+    }
+
+    .space:hover {
+        color: hsl(171, 66%, 44%);
+        cursor: pointer;
+    }
+
+    .social:hover {
+        color: hsl(171, 66%, 44%);
+        cursor: pointer;
+    }
+
+}
+
+@media (min-width: 376px) and (max-width: 525px){
+    body {
+        height: 100vh;
+        font-family: "Bai Jamjuree", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: hsl(201, 11%, 66%);
+        background-image: url(./images/bg-header-desktop.png);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+    }
+    
+    .header {
+        width: 100%;
+    }
+    
+    .head {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    .headerlogo {
+        margin: 50px;
+        height: 120px;
+    }
+
+    .headertext {
+        width: 90%;
+    }
+
+    .headertext > h1 {
+        font-size: 30px;
+    }
+
+    .headertext > p {
+        font-size: 16px;
+    }
+
+    h1, h2, h3 {
+        font-weight: 600;
+        color: hsl(210, 10%, 33%);
+    }
+    
+    p {
+        word-spacing: 15px;
+        font-size: 16px;
+    }
+
+    .button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .download-btn {
+        border-radius: 30px;
+        padding: 15px 35px;
+        background-color: blueviolet;
+        color: white;
+        margin: 10px 10px;
+        font-weight: 600;
+        font-size: 16px;
+        text-align: center;
+        flex: 1;
+        min-width: 275px;
+        max-width: 295px;
+    }
+
+    .ios {
+        background-color: hsl(171, 66%, 44%);
+        box-shadow: 2px 3px 10px hsl(171, 80%, 52%);
+    }
+
+    .mac {
+        background-color: hsl(233, 100%, 69%);
+        box-shadow: 2px 4px 10px hsl(201, 11%, 66%);
+    }
+
+    .group1a {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+       
+    }
+
+    .computer {
+        width: 90%;
+    }
+
+    .group1ab {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .quick, .icloud, .complete {
+        text-align: center;
+    }
+
+    .center {
+        width: 90%;
+        text-align: center;
+        margin-top: 100px;
+        margin-left: 5%;
+    }
+
+    .center > h2 {
+        font-size: 28px;
+    }
+
+    .center > p {
+        font-size: 16px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content {
+        text-align: center;
+        flex: 1;
+        max-width: 300px;
+        padding: 30px;
+    }
+
+    .group4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .image {
+        margin: 100px 30px 0 30px;
+    }
+
+    .group1, .group2, .group3, .group5 {
+        width: 100%;
+    }
+
+    .devices {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .bottom {
+        margin-bottom: 75px;
+    }
+
+    .foot {
+        background-color: lightgray;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 0;
+        margin-top: 100px;
+        margin-left: 0;
+        gap: 20px;
+    }
+
+    
+
+    .foot .space {
+        color: hsl(210, 10%, 33%);
+    }
+
+    .grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 0;
+        margin: 10px 0;
+    }
+
+    .social {
+        display: flex;
+    }
+    
+    .social > div {
+        padding: 0 15px
+    }
+
+    .contact {
+        order: 1;
+    }
+
+    .privacy {
+        order: 2;
+    }
+
+    .press {
+        order: 3;
+    }
+
+    .install {
+        order: 4;
+    }
+
+    .ios:hover {
+        cursor: pointer;
+        background-color: hsl(171, 80%, 52%);
+    }
+
+    .mac:hover {
+        cursor: pointer;
+        background-color: hsl(233, 91%, 78%);
+    }
+
+    .space:hover {
+        color: hsl(171, 66%, 44%);
+        cursor: pointer;
+    }
+
+    .social:hover {
+        color: hsl(171, 66%, 44%);
+        cursor: pointer;
+    }
+
+}
+
+@media (min-width: 526px) and (max-width: 1045px){
+    body {
+        height: 100vh;
+        font-family: "Bai Jamjuree", sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        color: hsl(201, 11%, 66%);
+        background-image: url(./images/bg-header-desktop.png);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+    }
+    
+    .header {
+        width: 100%;
+    }
+    
+    .head {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    .headerlogo {
+        margin: 50px;
+        height: 120px;
+    }
+
+    .headertext {
+        width: 80%;
+    }
+
+    .headertext > h1 {
+        font-size: 36px;
+    }
+
+    .headertext > p {
+        font-size: 20px;
+    }
+
+    h1, h2, h3 {
+        font-weight: 600;
+        color: hsl(210, 10%, 33%);
+    }
+    
+    p {
+        word-spacing: 15px;
+        font-size: 18px;
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+    }
+
+    .download-btn {
+        border-radius: 30px;
+        padding: 15px 35px;
+        background-color: blueviolet;
+        color: white;
+        margin: 30px 10px;
+        font-weight: 600;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .ios {
+        background-color: hsl(171, 66%, 44%);
+        box-shadow: 2px 3px 10px hsl(171, 80%, 52%);
+    }
+
+    .mac {
+        background-color: hsl(233, 100%, 69%);
+        box-shadow: 2px 4px 10px hsl(201, 11%, 66%);
+    }
+
+    .group1a {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+       
+    }
+
+    .computer {
+        width: 80%;
+    }
+
+    .group1ab {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+    }
+
+    .quick, .icloud, .complete {
+        text-align: center;
+    }
+
+    .center {
+        width: 80%;
+        text-align: center;
+        margin-top: 100px;
+        margin-left: 10%;
+    }
+
+    .center > h2 {
+        font-size: 30px;
+    }
+
+    .center > p {
+        font-size: 18px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content {
+        text-align: center;
+        flex: 1;
+        max-width: 70%;
+        padding: 30px;
+    }
+
+    .group4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .image {
+        margin: 100px 30px 0 30px;
+    }
+
+    .group1, .group2, .group3, .group5 {
+        width: 100%;
+    }
+
+    .devices {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .bottom {
+        margin-bottom: 75px;
+    }
+
+    .foot {
+        background-color: lightgray;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 0;
+        margin-top: 100px;
+        margin-left: 0;
+        gap: 20px;
+    }
+
+    
+
+    .foot .space {
+        color: hsl(210, 10%, 33%);
+    }
+
+    .grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 0;
+        margin: 10px 0;
+    }
+
+    .social {
+        display: flex;
+    }
+    
+    .social > div {
+        padding: 0 15px
+    }
+
+    .contact {
+        order: 1;
+    }
+
+    .privacy {
+        order: 2;
+    }
+
+    .press {
+        order: 3;
+    }
+
+    .install {
+        order: 4;
+    }
+
+    .ios:hover {
+        cursor: pointer;
+        background-color: hsl(171, 80%, 52%);
+    }
+
+    .mac:hover {
+        cursor: pointer;
+        background-color: hsl(233, 91%, 78%);
+    }
+
+    .space:hover {
+        color: hsl(171, 66%, 44%);
+        cursor: pointer;
+    }
+
+    .social:hover {
+        color: hsl(171, 66%, 44%);
+        cursor: pointer;
+    }
+
+}
